@@ -121,7 +121,7 @@ public class PlayerListener implements Listener {
             return;
         }
 
-        if(MathUtils.locationNearHitBox(c.getHitBox(), p.getLocation(), 2)){
+        if(MathUtils.locationNearHitBox(c.getHitBox(), p.getLocation(), 1500000)){
             timeToReleaseAfter.remove(c);
             return;
         }
